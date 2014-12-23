@@ -5,6 +5,12 @@ class Bar{
   
   void move(){
     x = mouseX;
+    if (x-len/2<0){
+      x=len/2;
+    }
+    if(x+len/2>640){
+      x=width-len/2;
+    }
   }
   void display(){
     rectMode(CENTER);
