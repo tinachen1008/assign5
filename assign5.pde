@@ -66,12 +66,12 @@ void drawLife(){
 
 void begin(){
 
-  if (mouseX<60){
-    x=60;
+  if (mouseX<50){
+    x=50;
     y=height-20;
     ellipse(x,y,10,10);
-    }else if(mouseX>580){
-    x=580;
+    }else if(mouseX>590){
+    x=590;
     y=height-20;
     ellipse(x,y,10,10);
     }else{
