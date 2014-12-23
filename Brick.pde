@@ -1,7 +1,7 @@
 class Brick{
-  float bX;
-  float bY;
-  float size=30;
+  int bX;
+  int bY;
+  int size=30;
   
   void display(){
     rectMode(CENTER);
