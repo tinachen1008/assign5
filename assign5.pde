@@ -43,8 +43,8 @@ void brickMaker() {
     int distanceHeight=40;
     int numInRow=10;
     
-    int row=i/numInRow;
-    int col=i%numInRow;
+    int row=int(i/numInRow);
+    int col=int(i%numInRow);
     
     int x = ox + (distanceWidth*col);
     int y = oy + (distanceHeight*row);
