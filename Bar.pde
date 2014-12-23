@@ -1,7 +1,7 @@
 class Bar{
-  float x;
-  float y;
-  float len;
+  int x;
+  int y;
+  int len;
   
   void move(){
     x = mouseX;
